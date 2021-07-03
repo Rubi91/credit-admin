@@ -1,7 +1,12 @@
 <template>
 <div>
   <main class="container">
-    <nuxt></nuxt>
+    <div class="dashboard is-flex">
+      <Aside/>
+      <div class="dash-content is-flex-grow-1">
+        <nuxt></nuxt>
+      </div>
+    </div>
   </main>
   <Footer/>
 </div>
