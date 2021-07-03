@@ -25,7 +25,7 @@
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/">
+        <NuxtLink to="/applications">
           <span class="icon-text">
             <span class="icon">
               <i class="fas fa-file-alt"></i>
