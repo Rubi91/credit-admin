@@ -3,5 +3,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  middleware: [
+    function ({ store, redirect }) {
+      if (!store.state.loggedIn) {
+        redirect('/login')
+      }
+    }
+  ]
+}
 </script>
