@@ -1,8 +1,8 @@
 <template>
   <footer>
     <div class="content has-text-centered">
-      <p>
-        © {{ new Date().getFullYear() }} <i class="fas fa-tv text-info"></i> Rubi Vega
+      <p class="text-info">
+        © {{ new Date().getFullYear() }} Rubi Vega
       </p>
     </div>
   </footer>
@@ -14,6 +14,8 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+footer {
+  padding: 1rem;
+}
 </style>

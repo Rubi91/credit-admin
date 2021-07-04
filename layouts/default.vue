@@ -1,7 +1,13 @@
 <template>
 <div>
-  <main class="container">
-    <nuxt></nuxt>
+  <main>
+    <Header/>
+    <div class="dashboard container is-flex">
+      <Aside/>
+      <div class="dash-content is-flex-grow-1">
+        <nuxt></nuxt>
+      </div>
+    </div>
   </main>
   <Footer/>
 </div>
@@ -15,6 +21,10 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+@media(max-width: $tablet) {
+  .dashboard {
+    flex-direction: column;
+  }
+}
 </style>

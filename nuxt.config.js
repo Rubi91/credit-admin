@@ -24,10 +24,13 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~assets/scss/main.scss',
+    '@fortawesome/fontawesome-free/css/all.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    "~/plugins/vue-apexcharts.js"
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -39,9 +42,13 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/bulma'
+    '@nuxtjs/style-resources'
   ],
 
+  styleResources: {
+    // your settings here
+    scss: ['~assets/scss/main.scss']
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
