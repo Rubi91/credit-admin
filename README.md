@@ -1,4 +1,6 @@
-# credit-admin
+# Credit-admin
+
+Check out the **(https://credit-admin.netlify.app)** to see it in action!
 
 ## Build Setup
 
