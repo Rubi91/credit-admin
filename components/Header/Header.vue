@@ -1,7 +1,8 @@
 <template>
 <header class="p-1 mb-5">
-  <div class="container">
+  <div class="container is-flex is-justify-content-space-between">
     <NuxtLogo/>
+    <HeaderUserProfile v-if="$store.state.loggedIn"/>
   </div>
 </header>
 </template>

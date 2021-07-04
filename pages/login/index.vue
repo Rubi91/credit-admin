@@ -54,13 +54,16 @@ export default {
   },
   methods: {
     ...mapMutations({
-      setLoggedIn: 'setLoggedIn'
+      setLoggedIn: 'setLoggedIn',
+      setUserMail: 'setUserMail'
     }),
     loginForm() {
       this.loading = true
 
       setTimeout(() => {
         this.setLoggedIn(true)
+        this.setUserMail(this.email)
+
         this.$router.push('/')
       }, 3000)
 

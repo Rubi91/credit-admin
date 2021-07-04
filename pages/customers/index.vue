@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>clients</h1>
+    <h1 class="is-size-4">Clientes</h1>
     <table class="table">
       <thead>
       <tr>
@@ -9,7 +9,7 @@
         <th>Email</th>
         <th>Date</th>
         <th>Status</th>
-        <th>Action</th>
+        <th>Actions</th>
 
       </tr>
       </thead>

@@ -1,8 +1,7 @@
 <template>
   <div class="mb-4">
-    <h1 class="is-size-3">Solicitudes {{ new Date().getFullYear() }}</h1>
-
-    <div class="columns">
+    <div class="columns is-multiline">
+      <h1 class="is-size-3 column is-12">Solicitudes: </h1>
       <div class="card column is-4">
         <div class="card-content">
           <h3 class="is-size-4 has-text-weight-semibold my-1">
@@ -41,7 +40,7 @@
 import countTo from "vue-count-to";
 
 export default {
-  name: "MonthlyStat",
+  name: "CurrentStat",
   components: {
     countTo
   }

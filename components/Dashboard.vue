@@ -2,7 +2,7 @@
 <template>
   <div class="container">
     <div class="column is-12">
-      <MonthlyStat/>
+      <CurrentStat/>
     </div>
     <div class="columns">
       <div class="column is-6">
